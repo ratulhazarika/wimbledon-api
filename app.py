@@ -52,5 +52,4 @@ def get_wimbledon_result():
     except Exception as e:
         return jsonify({'error': 'Could not fetch data', 'details': str(e)}), 500
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
